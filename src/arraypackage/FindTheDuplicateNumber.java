@@ -13,6 +13,7 @@ public class FindTheDuplicateNumber {
         int[] arr2 = {1,4,5,5,6,7};
 
         FindTheDuplicateNumber findTheDuplicateNumber = new FindTheDuplicateNumber();
+
         System.out.println("The  Duplicate  Number = " + findTheDuplicateNumber.repeatedNumber(arr));
         System.out.println("The  Duplicate  Number = " + findTheDuplicateNumber.repeatedNumber(arr2));
 
