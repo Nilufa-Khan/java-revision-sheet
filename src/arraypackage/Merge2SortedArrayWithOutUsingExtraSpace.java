@@ -17,6 +17,7 @@ public class Merge2SortedArrayWithOutUsingExtraSpace {
         int temp = 0;
         int i = 0;
         while(arr1[arr1.length-1] > arr2[0]){
+
             if(arr1[i] > arr2[0]){
                 temp = arr1[i];
                 arr1[i] = arr2[0];
