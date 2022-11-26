@@ -29,6 +29,7 @@ public class MinNumberOfJumps {
             if(i == n-1){
                 return jumps;
             }
+
             maxReach = max(maxReach, i + arr[i]);
             steps--;
             if(steps == 0) {
