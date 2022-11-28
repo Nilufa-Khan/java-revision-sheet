@@ -4,9 +4,10 @@ public class CountInversion {
     public static void main(String[] args) {
 int[] arr = {8, 4, 2, 1};
 int[] arr2 =  {3, 1, 2};
+
 int res = inversionCount(arr, arr.length);
-System.out.println("res = " + res);
-System.out.println("inversionCount(arr2, arr2.length) = " + inversionCount(arr2, arr2.length));
+System.out.println(" Res of arr  = " + res);
+System.out.println("Res of arr2 = " + inversionCount(arr2, arr2.length));
     }
     public static int inversionCount(int[] arr,int size){
         int count = 0;
