@@ -17,14 +17,14 @@ public class BestTimeToBuyAndSellStock {
     }
 
     public static int displayBestTimeToBuyAndSellStock(int[] prices) {
+        int minSoFar = prices[0];
+        int maxProfit = 0;
+        for (int i = 0; i < prices.length; i++) {
 
-        int max_Current_Value = 0;
-        int max_Value_Found_So_Far = 0;
-
-        for (int i = 1; i < prices.length; i++) {
-            max_Current_Value = Math.max(0,max_Current_Value += prices[i]-prices[i-1]);
-            max_Value_Found_So_Far = Math.max(max_Value_Found_So_Far,max_Current_Value);
+            minSoFar = Math.min(minSoFar,prices[i]);
+            int profit = prices[i] - minSoFar;
+            maxProfit = Math.max(maxProfit,profit);
         }
-        return max_Value_Found_So_Far;
+        return maxProfit;
     }
 }
