@@ -7,6 +7,7 @@ package arraypackage;
 
 public class BestTimeToBuyAndSellStock {
     public static void main(String[] args) {
+
         int[] arr = {7, 1, 5, 3, 6, 4};
         System.out.println("display Best Time To Buy And Sell Stock (arr) = " + displayBestTimeToBuyAndSellStock(arr));
         int[] arr2 = {7,6,4,3,1};
