@@ -18,6 +18,8 @@ public class MyClass {
             MyClass obj2 = new MyClass("Sukura" , 765);
             obj1.display();
             obj2.display();
+
+
         }
     }
 }
