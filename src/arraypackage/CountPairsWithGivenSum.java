@@ -13,6 +13,7 @@ public class CountPairsWithGivenSum {
         int[] arr2 = {1, 5, 7, 1};
 
         System.out.println("countPairsWithGivenSum(arr,6) = " + countPairsWithGivenSum(arr, 2));
+
         System.out.println("countPairsWithGivenSum(arr2,2) = " + countPairsWithGivenSum(arr2, 6));
 
     }
