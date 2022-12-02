@@ -2,6 +2,7 @@ package arraypackage;
 
 public class MinMaxElement {
     public static void main(String[] args) {
+
         MinMaxElement minMaxElement = new MinMaxElement();
         int[] arr = {10,1,-1,56,89};
         minMaxElement.maxMin(arr);
