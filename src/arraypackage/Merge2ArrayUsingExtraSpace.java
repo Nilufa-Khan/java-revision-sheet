@@ -7,6 +7,7 @@ public class Merge2ArrayUsingExtraSpace {
 
         int[] arr1 = {4,6,8,9,11};
         int[] arr2 = {1,2,3,5,7,10};
+
         int[] newRes = merge2SortedArray(arr1,arr2);
         sort(newRes);
         for(int val : newRes){
