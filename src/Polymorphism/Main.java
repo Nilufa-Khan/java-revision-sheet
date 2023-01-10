@@ -7,7 +7,7 @@ public class Main {
         Mustang mustang1 = new Mustang();
 //        mustang1.fordCar(); // making obj of a child class & calling its obj
         Ford endeavour = new Endeavour();
-        Endeavour endeavour1 = (Endeavour) new Ford();// error Statement : "Exception in thread "main" java.lang.ClassCastException:
+//        Endeavour endeavour1 = (Endeavour) new Ford();// error Statement : "Exception in thread "main" java.lang.ClassCastException:
         // class Polymorphism.Ford cannot be cast to class Polymorphism.Endeavour (Polymorphism.Ford and Polymorphism.
         // Endeavour are in unnamed module of loader 'app')
        // at Polymorphism.Main.main(Main.java:10)"
@@ -15,5 +15,7 @@ public class Main {
 //        ford.fordCar();
 //        mustang.fordCar();
 //        endeavour.fordCar();
+
     }
+
 }
