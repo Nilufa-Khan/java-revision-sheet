@@ -75,3 +75,102 @@ The resulted array is the sorted array.
    While traversing if any element smaller than min_idx is found then swap both the values.
    Then, increment min_idx to point to the next element.
    Repeat until the array is sorted.
+   ==========================================================================
+   Algorithm
+   The simple steps of achieving the insertion sort are listed as follows -
+
+   Step 1 - If the element is the first element, assume that it is already sorted. Return 1.
+
+   Step2 - Pick the next element, and store it separately in a key.
+
+   Step3 - Now, compare the key with all elements in the sorted array.
+
+   Step 4 - If the element in the sorted array is smaller than the current element, then move to the next element. Else, shift greater elements in the array towards the right.
+
+   Step 5 - Insert the value.
+
+   Step 6 - Repeat until the array is sorted.
+
+   Working of Insertion sort Algorithm
+   Now, let's see the working of the insertion sort Algorithm.
+
+   To understand the working of the insertion sort algorithm, let's take an unsorted array. It will be easier to understand the insertion sort via an example.
+
+   Let the elements of array are -
+
+   Insertion Sort Algorithm
+   Initially, the first two elements are compared in insertion sort.
+
+   Insertion Sort Algorithm
+   Here, 31 is greater than 12. That means both elements are already in ascending order. So, for now, 12 is stored in a sorted sub-array.
+   AD
+
+   Insertion Sort Algorithm
+   Now, move to the next two elements and compare them.
+
+   Insertion Sort Algorithm
+   Here, 25 is smaller than 31. So, 31 is not at correct position. Now, swap 31 with 25. Along with swapping, insertion sort will also check it with all elements in the sorted array.
+
+   For now, the sorted array has only one element, i.e. 12. So, 25 is greater than 12. Hence, the sorted array remains sorted after swapping.
+
+   Insertion Sort Algorithm
+   Now, two elements in the sorted array are 12 and 25. Move forward to the next elements that are 31 and 8.
+
+   Insertion Sort Algorithm
+   Both 31 and 8 are not sorted. So, swap them.
+   AD
+
+   Insertion Sort Algorithm
+   After swapping, elements 25 and 8 are unsorted.
+
+   Insertion Sort Algorithm
+   So, swap them.
+
+   Insertion Sort Algorithm
+   Now, elements 12 and 8 are unsorted.
+
+   Insertion Sort Algorithm
+   So, swap them too.
+
+   Insertion Sort Algorithm
+   Now, the sorted array has three items that are 8, 12 and 25. Move to the next items that are 31 and 32.
+
+   Insertion Sort Algorithm
+   Hence, they are already sorted. Now, the sorted array includes 8, 12, 25 and 31.
+
+   Insertion Sort Algorithm
+   Move to the next elements that are 32 and 17.
+
+   Insertion Sort Algorithm
+   17 is smaller than 32. So, swap them.
+
+   Insertion Sort Algorithm
+   Swapping makes 31 and 17 unsorted. So, swap them too.
+
+   Insertion Sort Algorithm
+   Now, swapping makes 25 and 17 unsorted. So, perform swapping again.
+
+   Insertion Sort Algorithm
+   Now, the array is completely sorted.
+
+   Insertion sort complexity
+   Now, let's see the time complexity of insertion sort in best case, average case, and in worst case. We will also see the space complexity of insertion sort.
+
+   1. Time Complexity
+   Case	Time Complexity
+   Best Case
+   O(n)
+   Average Case
+   O(n2)
+   Worst Case
+   O(n2)
+   Best Case Complexity - It occurs when there is no sorting required, i.e. the array is already sorted. The best-case time complexity of insertion sort is O(n).
+   Average Case Complexity - It occurs when the array elements are in jumbled order that is not properly ascending and not properly descending. The average case time complexity of insertion sort is O(n2).
+   Worst Case Complexity - It occurs when the array elements are required to be sorted in reverse order. That means suppose you have to sort the array elements in ascending order, but its elements are in descending order. The worst-case time complexity of insertion sort is O(n2).
+   AD
+   2. Space Complexity
+   Space Complexity
+   O(1)
+   Stable
+   YES
+   The space complexity of insertion sort is O(1). It is because, in insertion sort, an extra variable is required for swapping.
