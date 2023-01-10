@@ -3,30 +3,29 @@ package sorting_algo;
 public class SelectionSort {
     public static void main(String[] args) {
        int arr[] = {64, 25, 12, 22, 11};
-        System.out.println("Before Sort");
-        for (int i = 0; i < arr.length ; i++) {
-            System.out.print(arr[i]+" ");
-        }
+       SelectionSort selectionSort1 = new SelectionSort();
+        System.out.println("Before Sorting");
+         selectionSort1.printArray(arr);
         System.out.println();
-        selectionSort(arr);
+        selectionSort1 .selection(arr);
+        System.out.println("After Sorting");
+       selectionSort1.printArray(arr);
+
     }
-    public static void selectionSort(int[] arr){
-
-        for (int i = 0; i <arr.length-1 ; i++) {
-            // minimum element find
+    public  void selection(int[] arr){
+        for(int i = 0; i < arr.length; i++){
             int min_index = i;
-            for (int j = i + 1; j < arr.length; j++) {
-                if(arr[j]< arr[min_index]  ){
+            for(int j=i+1; j< arr.length;j++){
+                if(arr[j]< arr[min_index]){
                     min_index = j;
-                    int temp = arr[min_index];
-                    arr[min_index] = arr[i];
-                    arr[i] = temp;
                 }
-
-
             }
-
+            int temp = arr[min_index];
+            arr[min_index] = arr[i];
+            arr[i] = temp;
         }
+    }
+    public void printArray(int[] arr){
         //print array
         System.out.println("After Selection Sort");
         for (int i = 0; i < arr.length ; i++) {
