@@ -75,6 +75,7 @@ The resulted array is the sorted array.
    While traversing if any element smaller than min_idx is found then swap both the values.
    Then, increment min_idx to point to the next element.
    Repeat until the array is sorted.
+
    ==========================================================================
    Algorithm
    The simple steps of achieving the insertion sort are listed as follows -
