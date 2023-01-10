@@ -8,6 +8,7 @@ public class InsertionSort {
         insertionSort.printArray(arr);
         System.out.println();
         insertionSort.insertion(arr);
+
         System.out.println("After insertion sort");
         insertionSort.printArray(arr);
         System.out.println();
