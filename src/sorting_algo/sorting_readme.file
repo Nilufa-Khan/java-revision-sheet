@@ -176,3 +176,34 @@ The resulted array is the sorted array.
    Stable
    YES
    The space complexity of insertion sort is O(1). It is because, in insertion sort, an extra variable is required for swapping.
+   =====================================================================================
+   Merge Sort Algorithm
+   One thing that you might wonder is what is the specialty of this algorithm. We already have a number of sorting algorithms then why do we need this algorithm? One of the main advantages of merge sort is that it has a time complexity of O(n log n), which means it can sort large arrays relatively quickly. It is also a stable sort, which means that the order of elements with equal values is preserved during the sort.
+   Algorithm:
+   step 1: start
+
+   step 2: declare array and left, right, mid variable
+
+   step 3: perform merge function.
+       if left > right
+           return
+       mid= (left+right)/2
+       mergesort(array, left, mid)
+       mergesort(array, mid+1, right)
+       merge(array, left, mid, right)
+
+   step 4: Stop
+
+   Follow the steps below to solve the problem:
+
+   MergeSort(arr[], l,  r)
+   If r > l
+
+   Find the middle point to divide the array into two halves:
+   middle m = l + (r – l)/2
+   Call mergeSort for first half:
+   Call mergeSort(arr, l, m)
+   Call mergeSort for second half:
+   Call mergeSort(arr, m + 1, r)
+   Merge the two halves sorted in steps 2 and 3:
+   Call merge(arr, l, m, r)
