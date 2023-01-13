@@ -1,0 +1,24 @@
+LINEAR SEARCH
+=================================
+
+Given an array arr[] of N elements, the task is to write a function to search a given element x in arr[].
+
+Examples:
+Input: arr[] = {10, 20, 80, 30, 60, 50,110, 100, 130, 170}, x = 110;
+Output: 6
+Explanation: Element x is present at index 6
+
+Input: arr[] = {10, 20, 80, 30, 60, 50,110, 100, 130, 170}, x = 175;
+Output: -1
+Explanation: Element x is not present in arr[].
+
+Follow the below idea to solve the problem:
+
+Iterate from 0 to N-1 and compare the value of every index with x if they match return index
+
+ Follow the given steps to solve the problem:
+
+Set the first element of the array as the current element.
+If the current element is the target element, return its index.
+If the current element is not the target element and if there are more elements in the array, set the current element to the next element and repeat step 2.
+If the current element is not the target element and there are no more elements in the array, return -1 to indicate that the element was not found.
