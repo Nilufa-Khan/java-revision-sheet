@@ -20,8 +20,10 @@ Iterate from 0 to N-1 and compare the value of every index with x if they match 
 
 Set the first element of the array as the current element.
 If the current element is the target element, return its index.
-If the current element is not the target element and if there are more elements in the array, set the current element to the next element and repeat step 2.
-If the current element is not the target element and there are no more elements in the array, return -1 to indicate that the element was not found.
+If the current element is not the target element and if there are more elements in the array, set the current element
+to the next element and repeat step 2.
+If the current element is not the target element and there are no more elements in the array,
+return -1 to indicate that the element was not found.
 =============================================================================================================================
 Binary Search
 ==================------
