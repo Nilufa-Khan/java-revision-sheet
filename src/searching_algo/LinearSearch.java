@@ -16,6 +16,7 @@ public class LinearSearch {
                 index = i;
             }
         }
+
         return  index;
     }
 }
