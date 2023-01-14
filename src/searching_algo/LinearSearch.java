@@ -9,6 +9,7 @@ public class LinearSearch {
         System.out.println("elementIndex1 = " + elementIndex1);
     }
     public static int linear(int[] arr, int searchElement){
+
         int index = -1;
         for(int i = 0; i < arr.length; i++){
             if(arr[i] == searchElement){
