@@ -41,6 +41,7 @@ public class BinarySearch {
 
         if(low <= high) {
             int mid = (low + high) / 2;
+
             if (arr[mid] == searchElement) {
                 return mid;
             } else if (arr[mid] < searchElement) {
