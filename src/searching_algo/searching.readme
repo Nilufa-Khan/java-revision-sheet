@@ -73,6 +73,7 @@ Recursive Method
 
                    else                  // x is on the left side
                        high = mid - 1
+
 2. Recursive Method (The recursive method follows the divide and conquer approach)
 
     binarySearch(arr, x, low, high)
