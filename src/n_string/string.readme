@@ -1,0 +1,16 @@
+Reverse words in a given string
+Examples:
+
+Input: s = “geeks quiz practice code”
+Output: s = “code practice quiz geeks”
+
+Input: s = “i love programming very much”
+Output: s = “much very programming love i”
+
+Follow the below steps to solve the problem:
+
+Run a for loop to traverse the string and create a temporary string to store the words
+If the current character is a space then add the current string to the answer and empty the string
+Else push the character into the string
+Print the answer array in reverse order
+=========================
