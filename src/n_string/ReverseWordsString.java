@@ -1,6 +1,6 @@
 package n_string;
 
-public class ReverseString {
+public class ReverseWordsString {
     public static void main(String[] args) {
         String str[] = "tukda ka jigar mera ho chand mera  Z, you love I".split(" ");
         String ans = "";

@@ -1,6 +1,6 @@
 package n_string;
 
-public class ReverseOfAString {
+public class ReverseWordsOfAString {
     public static void main(String[] args) {
 
         String str = "i love programming very much hi";
