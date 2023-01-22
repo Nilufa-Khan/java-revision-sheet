@@ -14,6 +14,7 @@ public class ReverseWordsOfAString {
     }
 //function to reverse letters of the word
     public static void reverseLetterOfAWords(char[] str, int start, int end){
+
         char temp;
         while(start <= end){
             // swapping the first and last character
