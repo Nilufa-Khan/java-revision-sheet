@@ -48,6 +48,7 @@ public class BinarySearch {
 
               return   binaryRecursiveSearch(arr, mid + 1, high, searchElement);
             } else {
+
                return binaryRecursiveSearch(arr, low, mid - 1, searchElement);
             }
         }
