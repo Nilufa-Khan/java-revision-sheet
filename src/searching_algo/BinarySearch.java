@@ -45,6 +45,7 @@ public class BinarySearch {
             if (arr[mid] == searchElement) {
                 return mid;
             } else if (arr[mid] < searchElement) {
+
               return   binaryRecursiveSearch(arr, mid + 1, high, searchElement);
             } else {
                return binaryRecursiveSearch(arr, low, mid - 1, searchElement);
