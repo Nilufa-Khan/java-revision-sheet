@@ -9,6 +9,7 @@ public class MergeSortPractice {
         }
     }
     public static void merge(int[] arr, int start , int end){
+        
 //        finding mid of the array
         int mid =  (start + end)/2;
 // declaring and initializing length of the two array
