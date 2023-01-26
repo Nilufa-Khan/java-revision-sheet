@@ -7,6 +7,7 @@ public class MergeSort {
         m1.sort(arr, 0, arr.length - 1);
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
+            
         }
     }
     void merge(int arr[], int l, int m, int r)
