@@ -2,6 +2,7 @@ package Polymorphism;
 
 public class Main {
     public static void main(String[] args) {
+
         Ford ford = new Ford(); //creating parent object
         Ford mustang = new Mustang(); //creating child object
         Mustang mustang1 = new Mustang();
