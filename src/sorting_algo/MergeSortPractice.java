@@ -15,10 +15,11 @@ public class MergeSortPractice {
 // declaring and initializing length of the two array
         int len1 = mid - start + 1;
         int len2 = end - mid;
-        
+
 // declaring two array
 
         int firstArray[] = new int[len1];
+        
         int secArray[] = new int[len2];
 // copy paste values from the main array to the newly created array
         for (int i = 0; i <len1 ; ++i) {
