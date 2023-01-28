@@ -9,6 +9,7 @@ public class ReverseDigit {
 //    1564      4651
     public static  int reverseDigit(int number){
         int reverse = 0;
+
         while (number > 0){
             int remainder = number % 10;
             reverse = reverse * 10 + remainder;
