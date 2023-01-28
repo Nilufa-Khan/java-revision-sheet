@@ -4,6 +4,7 @@ public class ReverseDigit {
     public static void main(String[] args) {
 
        int rev = reverseDigit(1564);
+
         System.out.println("Reverse  = " + rev);
     }
 //    1564      4651
