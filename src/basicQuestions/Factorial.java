@@ -10,17 +10,19 @@ public class Factorial {
         System.out.println("Factorial of "+ number + " = " + fact(number));
         System.out.println("Do you want to continue ... Enter 1 to continue 0 to exit");
         int choice = scanner.nextInt();
-        if(choice == 1) {
-        while (choice == 1) {
+       while(true) {
 
-
-            System.out.println("Factorial of " + number + " = " + fact(number));
-        }
-
-        }
-        System.out.println("Do you want to continue ... Enter 1 to continue 0 to exit");
-        System.out.println("Enter a number");
-        number = scanner.nextInt();
+           if (choice == 0) {
+               break;
+           }
+           if (choice == 1) {
+               System.out.println("Enter a number");
+               number = scanner.nextInt();
+               System.out.println("Factorial of " + number + " = " + fact(number));
+           }
+           System.out.println("Do you want to continue ... Enter 1 to continue 0 to exit");
+           choice = scanner.nextInt();
+       }
     }
     public static int fact(int number){
         int factorial = 1;
