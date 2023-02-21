@@ -13,6 +13,7 @@ public class Factorial {
        while(true) {
 
            if (choice == 0) {
+
                break;
            }
            if (choice == 1) {
